@@ -17,6 +17,9 @@
     "@types/semver": "^7.5.8",
     "semver": "^7.6.0"
   },
+  "resolutions": {
+    "@achrinza/node-ipc": "^10.1.11"
+  },
   "scripts": {
     "dev": "NODE_ENV=dev ./node_modules/.bin/vue-cli-service serve",
     "build": "./node_modules/.bin/vue-cli-service build",
